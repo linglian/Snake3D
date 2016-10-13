@@ -23,8 +23,8 @@ public class DrawMap : MonoBehaviour {
 		pos.y = 2.6f;
 		for (int i = 0; i < 50; i++) {
 			for (int j = 0; j < 50; j++) {
-				pos.x = (float)i-26.5f;
-				pos.z = (float)j-26.5f;
+				pos.x = (float)i-25.5f;
+				pos.z = (float)j-25.5f;
 				switch(map[i][j]){
 				case 0:
 					break;
@@ -34,9 +34,5 @@ public class DrawMap : MonoBehaviour {
 				}
 			}
 		}
-	}
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
